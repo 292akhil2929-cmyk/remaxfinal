@@ -30,7 +30,7 @@ const WHY_REMAX_GLOBALLY = [
   {
     icon: Users,
     title: '145,000 Agents Means Global Market Intelligence',
-    desc: "When you work with RE/MAX Zam Dubai, you have access to the market intelligence of 145,000 agents operating across 120 countries. If a qualified buyer in Frankfurt, Singapore, or Toronto is looking for Dubai investment, the RE/MAX global referral network can connect them directly to your property — no other Dubai agency has that reach.",
+    desc: "When you work with RE/MAX ZAM Dubai, you have access to the market intelligence of 145,000 agents operating across 120 countries. If a qualified buyer in Frankfurt, Singapore, or Toronto is looking for Dubai investment, the RE/MAX global referral network can connect them directly to your property — no other Dubai agency has that reach.",
   },
   {
     icon: TrendingUp,
@@ -46,7 +46,7 @@ const WHY_REMAX_GLOBALLY = [
 
 const REMAX_UAE_ADVANTAGE = [
   {
-    title: 'RE/MAX Zam vs Independent Dubai Agencies',
+    title: 'RE/MAX ZAM vs Independent Dubai Agencies',
     points: [
       'RE/MAX brand trust recognised in 120+ countries vs local brand only known in UAE',
       'Global referral network of 145,000 agents vs isolated local network',
@@ -61,12 +61,12 @@ const INVESTOR_PROFILES = [
   {
     flag: '🇬🇧',
     country: 'UK Investors',
-    insight: "British buyers often start their Dubai search through agents they recognise from home. RE/MAX has over 1,000 offices in the UK — when a UK investor sees the RE/MAX name in Dubai, trust is instant. RE/MAX Zam Dubai is the team they should contact.",
+    insight: "British buyers often start their Dubai search through agents they recognise from home. RE/MAX has over 1,000 offices in the UK — when a UK investor sees the RE/MAX name in Dubai, trust is instant. RE/MAX ZAM Dubai is the team they should contact.",
   },
   {
     flag: '🇺🇸',
     country: 'US Investors',
-    insight: "RE/MAX is an American brand, born in Denver in 1973. American investors inherently trust the RE/MAX system — the compliance standards, the agent accountability, the transaction rigour. RE/MAX Zam brings that same standard to the Dubai market.",
+    insight: "RE/MAX is an American brand, born in Denver in 1973. American investors inherently trust the RE/MAX system — the compliance standards, the agent accountability, the transaction rigour. RE/MAX ZAM brings that same standard to the Dubai market.",
   },
   {
     flag: '🇮🇳',
@@ -76,7 +76,7 @@ const INVESTOR_PROFILES = [
   {
     flag: '🇷🇺',
     country: 'Russian & CIS Investors',
-    insight: "RE/MAX operates across Russia, Kazakhstan, Ukraine, and CIS markets. Investors from these regions who know RE/MAX globally will specifically seek a RE/MAX agent in Dubai for their investment. RE/MAX Zam Dubai has a dedicated Russian-speaking team.",
+    insight: "RE/MAX operates across Russia, Kazakhstan, Ukraine, and CIS markets. Investors from these regions who know RE/MAX globally will specifically seek a RE/MAX agent in Dubai for their investment. RE/MAX ZAM Dubai has a dedicated Russian-speaking team.",
   },
   {
     flag: '🇩🇪',
@@ -86,29 +86,29 @@ const INVESTOR_PROFILES = [
   {
     flag: '🇸🇬',
     country: 'Singapore & Asian Investors',
-    insight: "Sophisticated Asian investors — particularly from Singapore, Hong Kong, and Malaysia — treat brand reputation as a primary filter when selecting a real estate advisor. RE/MAX's global profile gives RE/MAX Zam immediate credibility with this high-value segment.",
+    insight: "Sophisticated Asian investors — particularly from Singapore, Hong Kong, and Malaysia — treat brand reputation as a primary filter when selecting a real estate advisor. RE/MAX's global profile gives RE/MAX ZAM immediate credibility with this high-value segment.",
   },
 ];
 
 const FAQS = [
   {
-    q: 'Is RE/MAX Zam the official RE/MAX franchise in Dubai?',
-    a: "RE/MAX Zam is a licensed RE/MAX franchise operating in Dubai, UAE. We operate under the RE/MAX International franchise agreement, meeting all global standards for agent training, compliance, and professional conduct. Our agents are RERA licensed and DLD registered.",
+    q: 'Is RE/MAX ZAM the official RE/MAX franchise in Dubai?',
+    a: "RE/MAX ZAM is a licensed RE/MAX franchise operating in Dubai, UAE. We operate under the RE/MAX International franchise agreement, meeting all global standards for agent training, compliance, and professional conduct. Our agents are RERA licensed and DLD registered.",
   },
   {
     q: "How does the RE/MAX global network benefit my Dubai investment?",
-    a: "When you buy through RE/MAX Zam, you benefit from our connection to 145,000 RE/MAX agents globally. This means international buyers for your property when you exit, cross-border referrals, and access to a global market intelligence network that no Dubai-only agency can match.",
+    a: "When you buy through RE/MAX ZAM, you benefit from our connection to 145,000 RE/MAX agents globally. This means international buyers for your property when you exit, cross-border referrals, and access to a global market intelligence network that no Dubai-only agency can match.",
   },
   {
     q: 'Why choose RE/MAX over other Dubai real estate agencies?',
     a: "The RE/MAX brand carries 50+ years of global trust and #1 franchise rankings for 42 consecutive years. For international investors — particularly from the UK, USA, Europe, and Asia — the RE/MAX name signals professional standards, ethical conduct, and transaction rigour they are already familiar with from their home markets.",
   },
   {
-    q: "Can RE/MAX Zam handle my transaction remotely?",
+    q: "Can RE/MAX ZAM handle my transaction remotely?",
     a: "Yes. We have guided investors from 40+ countries through complete Dubai property transactions remotely — from property selection and ROI analysis through to DLD registration and Golden Visa facilitation. Our process is designed for international buyers who cannot be on the ground in Dubai.",
   },
   {
-    q: 'What types of properties does RE/MAX Zam specialise in?',
+    q: 'What types of properties does RE/MAX ZAM specialise in?',
     a: "We cover the full Dubai market — off-plan investments, ready apartments and villas, luxury and ultra-premium properties, commercial real estate, and Golden Visa-qualifying investments from AED 2M+. We work with all major developers including EMAAR, DAMAC, Nakheel, and Sobha.",
   },
   {
@@ -126,11 +126,11 @@ export default function RemaxDubai() {
           <p className="text-xs font-heading font-bold text-[#C9A84C] tracking-widest mb-3 uppercase">The World's #1 Real Estate Brand — Now in Dubai</p>
           <h1 className="text-3xl lg:text-5xl font-display font-black text-gray-900 mb-4">RE/MAX Dubai — Buy With the Brand the World Trusts</h1>
           <p className="text-base text-gray-500 font-body max-w-2xl leading-relaxed mb-8">
-            RE/MAX has been the world's #1 real estate brand for <span className="text-[#C9A84C] font-bold">50+ years</span>. <span className="text-[#C9A84C] font-bold">145,000</span> agents. <span className="text-[#C9A84C] font-bold">120</span> countries. <span className="text-[#C9A84C] font-bold">8,500+</span> offices. And in Dubai — one trusted franchise you should know: RE/MAX Zam.
+            RE/MAX has been the world's #1 real estate brand for <span className="text-[#C9A84C] font-bold">50+ years</span>. <span className="text-[#C9A84C] font-bold">145,000</span> agents. <span className="text-[#C9A84C] font-bold">120</span> countries. <span className="text-[#C9A84C] font-bold">8,500+</span> offices. And in Dubai — one trusted franchise you should know: RE/MAX ZAM.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="bg-black hover:bg-gray-900 text-white font-heading font-bold border-0" asChild>
-              <Link to="/contact">Talk to RE/MAX Zam Dubai <ArrowRight className="w-4 h-4 ml-1" /></Link>
+              <Link to="/contact">Talk to RE/MAX ZAM Dubai <ArrowRight className="w-4 h-4 ml-1" /></Link>
             </Button>
             <Button size="lg" variant="outline" className="border-[#C9A84C] text-[#C9A84C] hover:bg-gray-50 font-heading" asChild>
               <Link to="/properties">Browse Dubai Properties</Link>
@@ -169,14 +169,14 @@ export default function RemaxDubai() {
                 Today, RE/MAX is ranked the #1 real estate franchise brand globally by Entrepreneur Magazine — a distinction it has held for 42 consecutive years. No other real estate company comes close to that track record.
               </p>
               <p className="text-gray-500 font-body text-sm leading-relaxed mb-8">
-                When that brand comes to Dubai — through RE/MAX Zam — international investors gain access to world-class real estate advisory standards backed by the most recognised name in the industry.
+                When that brand comes to Dubai — through RE/MAX ZAM — international investors gain access to world-class real estate advisory standards backed by the most recognised name in the industry.
               </p>
               <div className="flex flex-col gap-3">
                 {[
                   '#1 Real Estate Franchise — Entrepreneur Magazine, 42 years',
                   'Over 1 million transactions closed annually worldwide',
                   'Operating across North America, Europe, Asia, Middle East & Africa',
-                  'RE/MAX.com — one of the world\'s most visited property websites',
+                  'REMAX.com — one of the world\'s most visited property websites',
                 ].map(fact => (
                   <div key={fact} className="flex items-start gap-3">
                     <CheckCircle className="w-4 h-4 text-[#C9A84C] shrink-0 mt-0.5" />
@@ -191,10 +191,10 @@ export default function RemaxDubai() {
                 { year: '1978', event: 'First international expansion — Canada' },
                 { year: '1994', event: 'Entered European markets across 15 countries' },
                 { year: '2000', event: 'Surpassed 50,000 agents globally' },
-                { year: '2010', event: 'RE/MAX Zam founded in Dubai, UAE' },
+                { year: '2010', event: 'RE/MAX ZAM founded in Dubai, UAE' },
                 { year: '2015', event: 'RE/MAX reaches 100,000 agents across 100 countries' },
                 { year: '2022', event: 'RE/MAX expands to 120+ countries, 145,000+ agents' },
-                { year: '2024', event: 'RE/MAX Zam named Top 10 Franchise in the UAE' },
+                { year: '2024', event: 'RE/MAX ZAM named Top 10 Franchise in the UAE' },
               ].map((m, i) => (
                 <div key={m.year} className="flex gap-4 items-start">
                   <div className="w-12 shrink-0 text-right">
@@ -250,10 +250,10 @@ export default function RemaxDubai() {
             <p className="text-[#C9A84C] font-body text-xs tracking-[0.2em] uppercase mb-3">A Brand You Already Know</p>
             <h2 className="font-display font-black text-gray-900 text-3xl sm:text-4xl leading-tight">
               Wherever You're From — You Know RE/MAX.<br />
-              <span className="text-gray-700">In Dubai, That's RE/MAX Zam.</span>
+              <span className="text-gray-700">In Dubai, That's RE/MAX ZAM.</span>
             </h2>
             <p className="text-gray-500 font-body text-sm mt-4 max-w-2xl mx-auto">
-              International investors recognise the RE/MAX brand from their home markets. In Dubai, RE/MAX Zam is the franchise that carries that global trust and delivers it locally — with RERA-licensed advisors, DLD-registered transactions, and a team that speaks your language.
+              International investors recognise the RE/MAX brand from their home markets. In Dubai, RE/MAX ZAM is the franchise that carries that global trust and delivers it locally — with RERA-licensed advisors, DLD-registered transactions, and a team that speaks your language.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -280,15 +280,15 @@ export default function RemaxDubai() {
         <div className="max-w-5xl mx-auto px-6 sm:px-10">
           <div className="grid lg:grid-cols-2 gap-16 items-start">
             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <p className="text-[#C9A84C] font-body text-xs tracking-[0.2em] uppercase mb-4">RE/MAX Zam — Dubai's RE/MAX</p>
+              <p className="text-[#C9A84C] font-body text-xs tracking-[0.2em] uppercase mb-4">RE/MAX ZAM — Dubai's RE/MAX</p>
               <h2 className="font-display font-black text-gray-900 text-3xl sm:text-4xl leading-tight mb-6">
                 Global Brand Trust.<br />Local Dubai Expertise.
               </h2>
               <p className="text-gray-500 font-body text-sm leading-relaxed mb-4">
-                RE/MAX Zam has been Dubai's trusted RE/MAX franchise since 2010. In 15 years, we have closed over AED 2 billion in transactions for investors from 40+ countries — earning our place as one of the UAE's top-performing RE/MAX offices.
+                RE/MAX ZAM has been Dubai's trusted RE/MAX franchise since 2010. In 15 years, we have closed over AED 2 billion in transactions for investors from 40+ countries — earning our place as one of the UAE's top-performing RE/MAX offices.
               </p>
               <p className="text-gray-500 font-body text-sm leading-relaxed mb-8">
-                When international investors search for "RE/MAX Dubai" or "RE/MAX UAE property", they should find one answer: RE/MAX Zam. We combine the global credibility of the RE/MAX brand with 15 years of on-the-ground Dubai market knowledge.
+                When international investors search for "RE/MAX Dubai" or "RE/MAX UAE property", they should find one answer: RE/MAX ZAM. We combine the global credibility of the RE/MAX brand with 15 years of on-the-ground Dubai market knowledge.
               </p>
               <div className="space-y-4 mb-10">
                 {[
@@ -305,7 +305,7 @@ export default function RemaxDubai() {
                 ))}
               </div>
               <Button size="lg" className="bg-black hover:bg-gray-900 text-white font-heading font-bold border-0" asChild>
-                <Link to="/contact">Contact RE/MAX Zam Dubai <ArrowRight className="w-4 h-4 ml-1" /></Link>
+                <Link to="/contact">Contact RE/MAX ZAM Dubai <ArrowRight className="w-4 h-4 ml-1" /></Link>
               </Button>
             </motion.div>
 
@@ -355,7 +355,7 @@ export default function RemaxDubai() {
             Buy Dubai Property<br />Through a Brand You Can Trust
           </h2>
           <p className="text-gray-600 font-body text-sm leading-relaxed mb-10 max-w-xl mx-auto">
-            RE/MAX Zam is Dubai's trusted RE/MAX franchise — combining 50 years of global brand credibility with 15 years of on-the-ground Dubai expertise. Book your free consultation today.
+            RE/MAX ZAM is Dubai's trusted RE/MAX franchise — combining 50 years of global brand credibility with 15 years of on-the-ground Dubai expertise. Book your free consultation today.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-black text-white hover:bg-gray-900 font-heading font-bold border-0" asChild>
