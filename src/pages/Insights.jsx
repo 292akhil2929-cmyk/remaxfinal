@@ -159,7 +159,7 @@ export default function Insights() {
       <section className="py-16 bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-xs font-heading font-bold text-[#C9A84C] tracking-widest mb-3 uppercase">RE/MAX Zam — Knowledge Hub</p>
+            <p className="text-xs font-heading font-bold text-[#C9A84C] tracking-widest mb-3 uppercase">RE/MAX ZAM — Knowledge Hub</p>
             <h1 className="text-3xl lg:text-5xl font-display font-black text-gray-900 mb-4">
               Dubai Real Estate Market Insights 2025
             </h1>
@@ -300,7 +300,7 @@ export default function Insights() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 font-body mt-3">Data based on Q1 2026 DLD transaction records and RE/MAX Zam proprietary market analysis. Yields are gross estimates; net yields vary by service charges and occupancy.</p>
+          <p className="text-xs text-gray-500 font-body mt-3">Data based on Q1 2026 DLD transaction records and REMAX ZAM proprietary market analysis. Yields are gross estimates; net yields vary by service charges and occupancy.</p>
         </div>
       </section>
 
