@@ -227,7 +227,7 @@ export default function DubaiUnfiltered() {
                 Dubai Real Estate Unfiltered was built to change that. Every episode brings you the developers, analysts and market insiders who actually shape this city — and asks them the questions that most agents are afraid to ask.
               </p>
               <p className="text-gray-600 font-body text-sm leading-relaxed mb-8">
-                At RE/MAX Zam, we believe that an informed investor is a better investor. And a better investor makes decisions they don't regret. That is the entire purpose of this show.
+                At REMAX ZAM, we believe that an informed investor is a better investor. And a better investor makes decisions they don't regret. That is the entire purpose of this show.
               </p>
               <div className="flex items-center gap-4">
                 <a
