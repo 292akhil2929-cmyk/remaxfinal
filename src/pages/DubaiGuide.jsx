@@ -33,7 +33,7 @@ const BUYING_STEPS = [
     step: '03',
     title: 'Engage a RERA-Licensed Agent',
     desc: 'Only agents holding a valid RERA broker card are legally authorised to facilitate property transactions in Dubai. Always verify your agent\'s RERA number on the Dubai Land Department (DLD) official portal before signing anything. Unregistered brokers operating in Dubai face fines and legal action.',
-    tips: ['Verify RERA broker card on DLD portal (dubailand.gov.ae)', 'Agent\'s RERA card must be current and valid', 'RE/MAX Zam — all advisors hold active RERA certification'],
+    tips: ['Verify RERA broker card on DLD portal (dubailand.gov.ae)', 'Agent\'s RERA card must be current and valid', 'RE/MAX ZAM — all advisors hold active RERA certification'],
   },
   {
     step: '04',
@@ -214,7 +214,7 @@ const FAQS = [
   { q: 'Can a landlord evict me to sell the property?', a: 'No. A landlord cannot evict a tenant simply because they want to sell the property. The buyer of the property assumes the tenancy and must honour the existing lease. Eviction is only permitted for specific legal reasons — non-payment, property damage, illegal use, or the landlord\'s documented personal use (which requires 12 months notice).' },
   { q: 'How much notice must a landlord give to increase rent?', a: 'A minimum of 90 days written notice before the lease expiry date. Without 90 days notice, the landlord cannot legally enforce a rent increase at renewal. Additionally, the increase is capped by the RERA Rental Index — check the current market rate at smartservices.rera.gov.ae.' },
   { q: 'What happens if my landlord refuses to return my deposit?', a: 'File a case at the Rental Dispute Centre (RDC). The RDC will adjudicate and can order the landlord to return the deposit plus penalties if the withholding is unjustified. Keep all evidence of the property\'s condition at both move-in and move-out (photos, inventory, written communications).' },
-  { q: 'Can I rent out my Dubai property on Airbnb?', a: 'Yes, but you need a short-term rental permit from DTCM (Dubai Tourism and Commerce Marketing). Without the permit, operating as an unlicensed short-term rental is a violation and can result in fines. RE/MAX Zam can advise on the permit process and connect you with DTCM-licensed property managers.' },
+  { q: 'Can I rent out my Dubai property on Airbnb?', a: 'Yes, but you need a short-term rental permit from DTCM (Dubai Tourism and Commerce Marketing). Without the permit, operating as an unlicensed short-term rental is a violation and can result in fines. RE/MAX ZAM can advise on the permit process and connect you with DTCM-licensed property managers.' },
   { q: 'What is the difference between off-plan and ready property?', a: 'Off-plan is purchased before construction completes — typically lower entry price, flexible payment plans (often 50–60% post-handover), and higher potential capital gain. Ready property is completed and available for immediate occupancy or rental. Off-plan carries developer delivery risk; ready property has immediate income potential.' },
   { q: 'Do I need a UAE bank account to buy property?', a: 'Not necessarily, but it is strongly recommended. Manager\'s cheques (required for the DLD transfer) must be issued by a UAE bank. Opening a UAE bank account typically requires a valid UAE visa — for investors without a visa, some developers accept overseas bank transfers for off-plan deposits.' },
   { q: 'What is a Trustee Office?', a: 'A Trustee Office is a DLD-authorised private office that processes property registrations and title transfers on behalf of the Dubai Land Department. Property transfers happen at Trustee Offices (not DLD headquarters). There are multiple Trustee Offices across Dubai for convenience.' },
@@ -367,7 +367,7 @@ export default function DubaiGuide() {
               ))}
             </div>
             <div className="mt-12 bg-black rounded-2xl p-8 text-center">
-              <p className="text-white font-display font-bold text-xl mb-2">Ready to Buy? Talk to a RE/MAX Zam Advisor</p>
+              <p className="text-white font-display font-bold text-xl mb-2">Ready to Buy? Talk to a RE/MAX ZAM Advisor</p>
               <p className="text-white/50 font-body text-sm mb-6">We guide you through every step above — from property selection to Title Deed in your name.</p>
               <Button className="bg-white text-black hover:bg-gray-100 font-heading font-bold border-0" asChild>
                 <Link to="/contact">Book Free Consultation <ArrowRight className="w-4 h-4 ml-1" /></Link>
@@ -495,7 +495,7 @@ export default function DubaiGuide() {
             </div>
             <div className="mt-10 bg-black rounded-2xl p-8">
               <h3 className="font-display font-bold text-white text-xl mb-2">Investing in Dubai Property?</h3>
-              <p className="text-white/50 font-body text-sm mb-6">RE/MAX Zam offers full landlord advisory — from tenant screening to rent collection and dispute resolution. Let us manage your Dubai investment.</p>
+              <p className="text-white/50 font-body text-sm mb-6">RE/MAX ZAM offers full landlord advisory — from tenant screening to rent collection and dispute resolution. Let us manage your Dubai investment.</p>
               <Button className="bg-white text-black hover:bg-gray-100 font-heading font-bold border-0" asChild>
                 <Link to="/contact">Get Landlord Advisory <ArrowRight className="w-4 h-4 ml-1" /></Link>
               </Button>
@@ -580,7 +580,7 @@ export default function DubaiGuide() {
               <p className="font-display font-bold text-white text-xl mb-2">Still Have Questions?</p>
               <p className="text-white/70 font-body text-sm mb-6">Our team answers every inquiry within 24 hours. No sales pitch — just honest answers.</p>
               <Button className="bg-white text-black hover:bg-gray-100 font-heading font-bold border-0" asChild>
-                <Link to="/contact">Ask a RE/MAX Zam Advisor <ArrowRight className="w-4 h-4 ml-1" /></Link>
+                <Link to="/contact">Ask a RE/MAX ZAM Advisor <ArrowRight className="w-4 h-4 ml-1" /></Link>
               </Button>
             </div>
           </motion.div>
