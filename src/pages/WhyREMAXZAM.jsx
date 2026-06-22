@@ -15,7 +15,7 @@ const CREDENTIALS = [
   {
     icon: Award,
     title: 'RERA Licensed & DLD Registered',
-    desc: 'RE/MAX Zam is fully licensed by the Dubai Land Department (DLD) and the Real Estate Regulatory Agency (RERA). Every advisor holds an active RERA broker card — verifiable online at the DLD portal.',
+    desc: 'RE/MAX ZAM is fully licensed by the Dubai Land Department (DLD) and the Real Estate Regulatory Agency (RERA). Every advisor holds an active RERA broker card — verifiable online at the DLD portal.',
     badge: 'License Verified',
   },
   {
@@ -71,7 +71,7 @@ const TESTIMONIALS = [
     name: 'Michael Chen',
     country: 'Singapore',
     flag: '🇸🇬',
-    text: "RE/MAX Zam found me a 2-bedroom in Business Bay that now generates 7.8% yield. The process was completely transparent and they handled everything from DLD registration to the Golden Visa application. Exceptional service.",
+    text: "RE/MAX ZAM found me a 2-bedroom in Business Bay that now generates 7.8% yield. The process was completely transparent and they handled everything from DLD registration to the Golden Visa application. Exceptional service.",
     property: 'Business Bay — 2BR Canal View',
     yield: '7.8% yield',
   },
@@ -87,7 +87,7 @@ const TESTIMONIALS = [
     name: 'James & Sarah Mitchell',
     country: 'United Kingdom',
     flag: '🇬🇧',
-    text: "We bought a villa in Dubai Hills Estate for our family relocation. RE/MAX Zam guided us through the mortgage process, school choices, and even coordinated our Golden Visa. They genuinely care about getting it right.",
+    text: "We bought a villa in Dubai Hills Estate for our family relocation. RE/MAX ZAM guided us through the mortgage process, school choices, and even coordinated our Golden Visa. They genuinely care about getting it right.",
     property: 'Dubai Hills — 4BR Villa',
     yield: 'Golden Visa secured',
   },
@@ -95,7 +95,7 @@ const TESTIMONIALS = [
     name: 'Raj Mehta',
     country: 'India',
     flag: '🇮🇳',
-    text: "Third property I have bought through RE/MAX Zam. Every time, they show me the real numbers — service charges, net yields, exit strategy. No other agent in Dubai operates at this level of transparency.",
+    text: "Third property I have bought through RE/MAX ZAM. Every time, they show me the real numbers — service charges, net yields, exit strategy. No other agent in Dubai operates at this level of transparency.",
     property: 'Portfolio — 3 Properties',
     yield: 'AED 1.2M portfolio',
   },
@@ -115,7 +115,7 @@ export default function WhyREMAXZAM() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-xs font-heading font-bold text-[#C9A84C] tracking-widest mb-3 uppercase">Trust &amp; Credentials</p>
-            <h1 className="text-3xl lg:text-5xl font-display font-black text-gray-900 mb-4">Why Investors Choose RE/MAX Zam Dubai</h1>
+            <h1 className="text-3xl lg:text-5xl font-display font-black text-gray-900 mb-4">Why Investors Choose RE/MAX ZAM Dubai</h1>
             <p className="text-base text-gray-500 font-body max-w-2xl leading-relaxed mb-8">
               <span className="text-[#C9A84C] font-bold">15 years</span>. <span className="text-[#C9A84C] font-bold">AED 2 billion</span> in transactions. <span className="text-[#C9A84C] font-bold">1,200+</span> investors across <span className="text-[#C9A84C] font-bold">40</span> countries. Here is exactly why international investors trust us with their most significant financial decisions.
             </p>
@@ -131,7 +131,7 @@ export default function WhyREMAXZAM() {
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-xl hidden lg:block">
             <img
               src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=900&q=80&auto=format&fit=crop"
-              alt="Dubai Marina — RE/MAX Zam"
+              alt="Dubai Marina — RE/MAX ZAM"
               className="w-full h-full object-cover"
             />
             <div className="absolute bottom-4 left-4 bg-black/70 backdrop-blur-sm rounded-xl px-4 py-2">
@@ -162,7 +162,7 @@ export default function WhyREMAXZAM() {
             <p className="text-[#C9A84C] font-body text-xs tracking-[0.2em] uppercase mb-3">Why We're Different</p>
             <div className="w-8 h-0.5 bg-[#C9A84C] mb-4 mx-auto" />
             <h2 className="text-3xl sm:text-4xl font-display font-black text-gray-900 leading-tight">
-              What Sets RE/MAX Zam Apart
+              What Sets RE/MAX ZAM Apart
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
