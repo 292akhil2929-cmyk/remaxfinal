@@ -352,7 +352,7 @@ export default function AreaGuides() {
 
               {/* Expert Note */}
               <div className="bg-gray-50 border-l-4 border-black rounded-r-lg p-5 mb-8">
-                <p className="text-xs font-heading font-semibold text-[#C9A84C] uppercase tracking-widest mb-2">RE/MAX Zam Expert Insight</p>
+                <p className="text-xs font-heading font-semibold text-[#C9A84C] uppercase tracking-widest mb-2">REMAX ZAM Expert Insight</p>
                 <p className="text-sm text-gray-500 font-body leading-relaxed">{area.seoNote}</p>
               </div>
 
