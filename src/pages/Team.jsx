@@ -10,7 +10,7 @@ const FALLBACK = 'https://remax-zam.b-cdn.net/wp-content/uploads/2025/12/man.jpg
 
 const perks = [
   { icon: TrendingUp, title: 'Uncapped Commission', desc: 'You pick your commission — 50, 65, or 80 percent — your business, your way. No desk fees for your first months.' },
-  { icon: Users, title: 'Ready-Made Lead Pipeline', desc: 'Access to RE/MAX Zam\'s international marketing funnel, CRM database of qualified leads, and developer co-marketing budgets.' },
+  { icon: Users, title: 'Ready-Made Lead Pipeline', desc: 'Access to REMAX ZAM\'s international marketing funnel, CRM database of qualified leads, and developer co-marketing budgets.' },
   { icon: Award, title: 'RERA & Training Support', desc: 'We cover your training, provide hands-on mentorship, and guide you through your first transactions — regardless of your background.' },
   { icon: Star, title: 'RE/MAX Global Network', desc: <>Join the world&apos;s most recognised real estate brand with access to <span className="text-[#C9A84C] font-bold">146,000+</span> agents across <span className="text-[#C9A84C] font-bold">110+</span> countries and <span className="text-[#C9A84C] font-bold">8,700+</span> offices globally.</> },
 ];
@@ -19,15 +19,15 @@ const FOUNDER_SCHEMA = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: 'Faisal Contractor',
-  jobTitle: 'Owner & Principal Advisor, RE/MAX Zam',
+  jobTitle: 'Owner & Principal Advisor, RE/MAX ZAM',
   url: 'https://remaxzam.ae/about',
   worksFor: { '@type': 'RealEstateAgent', name: 'RE/MAX ZAM' },
 };
 
 export default function Team() {
   usePageSEO({
-    title: 'Our Advisory Team | RERA Licensed Dubai Property Agents | RE/MAX Zam',
-    description: 'Meet the RE/MAX Zam advisory team — RERA licensed, multilingual agents specialising in Dubai investment property, off-plan, and Golden Visa.',
+    title: 'Our Advisory Team | RERA Licensed Dubai Property Agents | RE/MAX ZAM',
+    description: 'Meet the RE/MAX ZAM advisory team — RERA licensed, multilingual agents specialising in Dubai investment property, off-plan, and Golden Visa.',
     canonical: 'https://remaxzam.ae/team',
     additionalSchema: FOUNDER_SCHEMA,
   });
@@ -49,10 +49,10 @@ export default function Team() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-heading font-bold text-[#C9A84C] tracking-widest mb-3 uppercase">Our People</p>
           <h1 className="text-3xl lg:text-5xl font-display font-black text-gray-900 mb-4 max-w-2xl">
-            Meet the RE/MAX Zam Team
+            Meet the REMAX ZAM Team
           </h1>
           <p className="text-base text-gray-500 font-body max-w-2xl leading-relaxed mb-8">
-            A team of specialist advisors built on a consultant-first growth model. We combine global RE/MAX expertise with deep Dubai market knowledge to deliver results for investors and buyers alike.
+            A team of specialist advisors built on a consultant-first growth model. We combine global REMAX expertise with deep Dubai market knowledge to deliver results for investors and buyers alike.
           </p>
           <Button size="lg" className="bg-black hover:bg-gray-900 text-white font-heading font-bold border-0" asChild>
             <Link to="/apply">Join Our Team <ArrowRight className="w-4 h-4 ml-1" /></Link>
@@ -162,7 +162,7 @@ export default function Team() {
           <div className="text-center mb-12">
             <p className="text-xs font-heading font-semibold text-[#C9A84C] tracking-widest mb-3 uppercase">Join the Team</p>
             <div className="w-8 h-0.5 bg-[#C9A84C] mb-4 mx-auto" />
-            <h2 className="text-3xl font-display font-bold text-gray-900 mb-3">Why Top Agents Choose RE/MAX Zam</h2>
+            <h2 className="text-3xl font-display font-bold text-gray-900 mb-3">Why Top Agents Choose REMAX ZAM</h2>
             <p className="text-sm text-gray-500 font-body max-w-xl mx-auto">
               We are actively recruiting experienced and ambitious real estate professionals. Build your business with the world's #1 real estate brand.
             </p>
