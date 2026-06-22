@@ -1,0 +1,500 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - link "REMAX ZAM" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "REMAX ZAM" [ref=e8]
+        - button [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - generic [ref=e14]:
+          - generic [ref=e18]:
+            - generic [ref=e20]:
+              - generic [ref=e21]: I want to
+              - generic [ref=e22]:
+                - button "Invest" [ref=e23] [cursor=pointer]: Invest
+                - button "Sell" [ref=e25] [cursor=pointer]
+                - button "Join as an Agent" [ref=e26] [cursor=pointer]
+            - generic [ref=e27]:
+              - heading "Own a Piece of The World's Most Investable City" [level=1] [ref=e28]
+              - paragraph [ref=e29]: Tax-free returns. Golden Visa eligibility. World-class infrastructure.
+              - generic [ref=e30]:
+                - generic [ref=e32]:
+                  - button "Buy" [ref=e33] [cursor=pointer]
+                  - button "Off-Plan" [ref=e34] [cursor=pointer]
+                  - button "Rent" [ref=e35] [cursor=pointer]
+                - generic [ref=e36]:
+                  - generic [ref=e37]:
+                    - img [ref=e38]
+                    - textbox "Search by community, area or property type..." [ref=e41]
+                  - button "Search" [ref=e42] [cursor=pointer]
+                - generic [ref=e43]:
+                  - generic [ref=e44]: "Popular:"
+                  - button "Downtown Dubai" [ref=e45] [cursor=pointer]
+                  - button "Dubai Marina" [ref=e46] [cursor=pointer]
+                  - button "Palm Jumeirah" [ref=e47] [cursor=pointer]
+                  - button "Business Bay" [ref=e48] [cursor=pointer]
+                  - button "Dubai Hills Estate" [ref=e49] [cursor=pointer]
+          - generic [ref=e50]:
+            - img
+            - img
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - generic [ref=e56]: 6-0%
+                - generic [ref=e57]: Tax-Free Yield
+              - generic [ref=e58]:
+                - generic [ref=e61]: 0%
+                - generic [ref=e62]: Capital Gains Tax
+              - generic [ref=e63]:
+                - generic [ref=e66]: 4k+
+                - generic [ref=e67]: Global RE/MAX Agents
+              - generic [ref=e68]:
+                - generic [ref=e71]: AED 30B+
+                - generic [ref=e72]: Transactions 2025
+        - generic [ref=e74]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Dubai Price Index
+            - generic [ref=e79]: "Source: RERA / DLD"
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: Dubai Marina
+              - generic [ref=e84]: ·
+              - generic [ref=e85]: AED 1,650/sqft
+              - generic [ref=e86]:
+                - img [ref=e87]
+                - text: +4.2%
+              - generic [ref=e90]: "|"
+            - generic [ref=e91]:
+              - generic [ref=e92]: Downtown Dubai
+              - generic [ref=e93]: ·
+              - generic [ref=e94]: AED 2,200/sqft
+              - generic [ref=e95]:
+                - img [ref=e96]
+                - text: +3.8%
+              - generic [ref=e99]: "|"
+            - generic [ref=e100]:
+              - generic [ref=e101]: Business Bay
+              - generic [ref=e102]: ·
+              - generic [ref=e103]: AED 1,480/sqft
+              - generic [ref=e104]:
+                - img [ref=e105]
+                - text: +5.1%
+              - generic [ref=e108]: "|"
+            - generic [ref=e109]:
+              - generic [ref=e110]: Palm Jumeirah
+              - generic [ref=e111]: ·
+              - generic [ref=e112]: AED 2,800/sqft
+              - generic [ref=e113]:
+                - img [ref=e114]
+                - text: +2.9%
+              - generic [ref=e117]: "|"
+            - generic [ref=e118]:
+              - generic [ref=e119]: JVC
+              - generic [ref=e120]: ·
+              - generic [ref=e121]: AED 950/sqft
+              - generic [ref=e122]:
+                - img [ref=e123]
+                - text: +6.3%
+              - generic [ref=e126]: "|"
+            - generic [ref=e127]:
+              - generic [ref=e128]: Dubai Hills
+              - generic [ref=e129]: ·
+              - generic [ref=e130]: AED 1,750/sqft
+              - generic [ref=e131]:
+                - img [ref=e132]
+                - text: +4.5%
+              - generic [ref=e135]: "|"
+            - generic [ref=e136]:
+              - generic [ref=e137]: DIFC
+              - generic [ref=e138]: ·
+              - generic [ref=e139]: AED 2,400/sqft
+              - generic [ref=e140]:
+                - img [ref=e141]
+                - text: +3.1%
+              - generic [ref=e144]: "|"
+            - generic [ref=e145]:
+              - generic [ref=e146]: Creek Harbour
+              - generic [ref=e147]: ·
+              - generic [ref=e148]: AED 1,900/sqft
+              - generic [ref=e149]:
+                - img [ref=e150]
+                - text: +7.2%
+              - generic [ref=e153]: "|"
+            - generic [ref=e154]:
+              - generic [ref=e155]: Dubai Marina
+              - generic [ref=e156]: ·
+              - generic [ref=e157]: AED 1,650/sqft
+              - generic [ref=e158]:
+                - img [ref=e159]
+                - text: +4.2%
+              - generic [ref=e162]: "|"
+            - generic [ref=e163]:
+              - generic [ref=e164]: Downtown Dubai
+              - generic [ref=e165]: ·
+              - generic [ref=e166]: AED 2,200/sqft
+              - generic [ref=e167]:
+                - img [ref=e168]
+                - text: +3.8%
+              - generic [ref=e171]: "|"
+            - generic [ref=e172]:
+              - generic [ref=e173]: Business Bay
+              - generic [ref=e174]: ·
+              - generic [ref=e175]: AED 1,480/sqft
+              - generic [ref=e176]:
+                - img [ref=e177]
+                - text: +5.1%
+              - generic [ref=e180]: "|"
+            - generic [ref=e181]:
+              - generic [ref=e182]: Palm Jumeirah
+              - generic [ref=e183]: ·
+              - generic [ref=e184]: AED 2,800/sqft
+              - generic [ref=e185]:
+                - img [ref=e186]
+                - text: +2.9%
+              - generic [ref=e189]: "|"
+            - generic [ref=e190]:
+              - generic [ref=e191]: JVC
+              - generic [ref=e192]: ·
+              - generic [ref=e193]: AED 950/sqft
+              - generic [ref=e194]:
+                - img [ref=e195]
+                - text: +6.3%
+              - generic [ref=e198]: "|"
+            - generic [ref=e199]:
+              - generic [ref=e200]: Dubai Hills
+              - generic [ref=e201]: ·
+              - generic [ref=e202]: AED 1,750/sqft
+              - generic [ref=e203]:
+                - img [ref=e204]
+                - text: +4.5%
+              - generic [ref=e207]: "|"
+            - generic [ref=e208]:
+              - generic [ref=e209]: DIFC
+              - generic [ref=e210]: ·
+              - generic [ref=e211]: AED 2,400/sqft
+              - generic [ref=e212]:
+                - img [ref=e213]
+                - text: +3.1%
+              - generic [ref=e216]: "|"
+            - generic [ref=e217]:
+              - generic [ref=e218]: Creek Harbour
+              - generic [ref=e219]: ·
+              - generic [ref=e220]: AED 1,900/sqft
+              - generic [ref=e221]:
+                - img [ref=e222]
+                - text: +7.2%
+              - generic [ref=e225]: "|"
+            - generic [ref=e226]:
+              - generic [ref=e227]: Dubai Marina
+              - generic [ref=e228]: ·
+              - generic [ref=e229]: AED 1,650/sqft
+              - generic [ref=e230]:
+                - img [ref=e231]
+                - text: +4.2%
+              - generic [ref=e234]: "|"
+            - generic [ref=e235]:
+              - generic [ref=e236]: Downtown Dubai
+              - generic [ref=e237]: ·
+              - generic [ref=e238]: AED 2,200/sqft
+              - generic [ref=e239]:
+                - img [ref=e240]
+                - text: +3.8%
+              - generic [ref=e243]: "|"
+            - generic [ref=e244]:
+              - generic [ref=e245]: Business Bay
+              - generic [ref=e246]: ·
+              - generic [ref=e247]: AED 1,480/sqft
+              - generic [ref=e248]:
+                - img [ref=e249]
+                - text: +5.1%
+              - generic [ref=e252]: "|"
+            - generic [ref=e253]:
+              - generic [ref=e254]: Palm Jumeirah
+              - generic [ref=e255]: ·
+              - generic [ref=e256]: AED 2,800/sqft
+              - generic [ref=e257]:
+                - img [ref=e258]
+                - text: +2.9%
+              - generic [ref=e261]: "|"
+            - generic [ref=e262]:
+              - generic [ref=e263]: JVC
+              - generic [ref=e264]: ·
+              - generic [ref=e265]: AED 950/sqft
+              - generic [ref=e266]:
+                - img [ref=e267]
+                - text: +6.3%
+              - generic [ref=e270]: "|"
+            - generic [ref=e271]:
+              - generic [ref=e272]: Dubai Hills
+              - generic [ref=e273]: ·
+              - generic [ref=e274]: AED 1,750/sqft
+              - generic [ref=e275]:
+                - img [ref=e276]
+                - text: +4.5%
+              - generic [ref=e279]: "|"
+            - generic [ref=e280]:
+              - generic [ref=e281]: DIFC
+              - generic [ref=e282]: ·
+              - generic [ref=e283]: AED 2,400/sqft
+              - generic [ref=e284]:
+                - img [ref=e285]
+                - text: +3.1%
+              - generic [ref=e288]: "|"
+            - generic [ref=e289]:
+              - generic [ref=e290]: Creek Harbour
+              - generic [ref=e291]: ·
+              - generic [ref=e292]: AED 1,900/sqft
+              - generic [ref=e293]:
+                - img [ref=e294]
+                - text: +7.2%
+              - generic [ref=e297]: "|"
+        - generic [ref=e300]:
+          - heading "Dubai's Most Attractive Investment Opportunities" [level=2] [ref=e302]:
+            - text: Dubai's Most Attractive
+            - text: Investment Opportunities
+          - link "View all listings" [ref=e303] [cursor=pointer]:
+            - /url: /properties
+            - text: View all listings
+            - img [ref=e304]
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - heading "Six Strategic Pillars of The Dubai Asset Class" [level=2] [ref=e314]:
+              - text: Six Strategic Pillars of
+              - text: The Dubai Asset Class
+            - paragraph [ref=e316]: A sovereign business model engineered for capital flight, generational wealth security, and market transparency.
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - img [ref=e321]
+                  - generic [ref=e324]: "01"
+                - heading "0%" [level=3] [ref=e325]:
+                  - generic [ref=e327]: 0%
+              - paragraph [ref=e328]: Tax on rental income & capital gains
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - img [ref=e332]
+                  - generic [ref=e334]: "02"
+                - heading "AED 2M+" [level=3] [ref=e335]:
+                  - generic [ref=e337]: AED 2M+
+              - paragraph [ref=e338]: Golden Visa eligibility via ownership
+            - generic [ref=e339]:
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - img [ref=e342]
+                  - generic [ref=e345]: "03"
+                - heading "7–9%" [level=3] [ref=e346]:
+                  - generic [ref=e348]: 7–9%
+              - paragraph [ref=e349]: Average net rental yield in prime areas
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - img [ref=e353]
+                  - generic [ref=e355]: "04"
+                - heading "RERA" [level=3] [ref=e356]:
+                  - generic [ref=e358]: RERA
+              - paragraph [ref=e359]: Fully regulated, investor-protected market
+            - generic [ref=e360]:
+              - generic [ref=e361]:
+                - generic [ref=e362]:
+                  - img [ref=e363]
+                  - generic [ref=e369]: "05"
+                - heading "300+" [level=3] [ref=e370]:
+                  - generic [ref=e372]: 300+
+              - paragraph [ref=e373]: Days of sunshine per year — lifestyle asset
+            - generic [ref=e374]:
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - img [ref=e377]
+                  - generic [ref=e381]: "06"
+                - heading "4hrs" [level=3] [ref=e382]:
+                  - generic [ref=e384]: 4hrs
+              - paragraph [ref=e385]: Flight time to ⅓ of the world's population
+        - generic [ref=e387]:
+          - generic [ref=e388]:
+            - paragraph [ref=e389]: Where to Invest
+            - heading "Dubai's Highest Yield Communities" [level=2] [ref=e390]:
+              - text: Dubai's Highest
+              - text: Yield Communities
+          - generic [ref=e391]:
+            - generic [ref=e392] [cursor=pointer]:
+              - img "Palm Jumeirah" [ref=e393]
+              - generic [ref=e395]:
+                - generic [ref=e396]: Ultra-Luxury
+                - paragraph [ref=e397]: Palm Jumeirah
+                - generic [ref=e398]:
+                  - img [ref=e399]
+                  - generic [ref=e402]: 5.2% yield
+            - generic [ref=e403] [cursor=pointer]:
+              - img "Downtown Dubai" [ref=e404]
+              - generic [ref=e406]:
+                - generic [ref=e407]: City Living
+                - paragraph [ref=e408]: Downtown Dubai
+                - generic [ref=e409]:
+                  - img [ref=e410]
+                  - generic [ref=e413]: 6.1% yield
+            - generic [ref=e414] [cursor=pointer]:
+              - img "Dubai Marina" [ref=e415]
+              - generic [ref=e417]:
+                - generic [ref=e418]: Waterfront
+                - paragraph [ref=e419]: Dubai Marina
+                - generic [ref=e420]:
+                  - img [ref=e421]
+                  - generic [ref=e424]: 7.4% yield
+            - generic [ref=e425] [cursor=pointer]:
+              - img "Business Bay" [ref=e426]
+              - generic [ref=e428]:
+                - generic [ref=e429]: High Yield
+                - paragraph [ref=e430]: Business Bay
+                - generic [ref=e431]:
+                  - img [ref=e432]
+                  - generic [ref=e435]: 8.2% yield
+          - link "Explore all area guides" [ref=e437] [cursor=pointer]:
+            - /url: /area-guides
+            - text: Explore all area guides
+            - img [ref=e438]
+        - generic [ref=e443]:
+          - generic [ref=e444]:
+            - generic [ref=e447]: Free Consultation
+            - heading "Build Your Dubai Portfolio" [level=2] [ref=e448]:
+              - text: Build Your
+              - text: Dubai Portfolio
+            - paragraph [ref=e449]: Our senior advisors will sit down with you, understand what you are trying to achieve, and show you exactly which properties match your budget and goals. No jargon, no pressure.
+            - list [ref=e450]:
+              - listitem [ref=e451]:
+                - generic [ref=e452]: ✓
+                - text: ROI analysis based on your actual budget and timeline
+              - listitem [ref=e453]:
+                - generic [ref=e454]: ✓
+                - text: An honest comparison of off-plan versus ready property
+              - listitem [ref=e455]:
+                - generic [ref=e456]: ✓
+                - text: Golden Visa pathway and tax-free income structuring
+              - listitem [ref=e457]:
+                - generic [ref=e458]: ✓
+                - text: Free 30-minute strategy session with no obligation
+          - generic [ref=e459]:
+            - heading "Start Your Investment Journey" [level=3] [ref=e460]
+            - paragraph [ref=e461]: We respond within 24 hours.
+            - generic [ref=e462]:
+              - generic [ref=e463]:
+                - textbox "Full Name *" [ref=e465]
+                - textbox "Email *" [ref=e467]
+                - generic [ref=e470]:
+                  - combobox [ref=e471] [cursor=pointer]:
+                    - generic: +971 UAE
+                    - img [ref=e472]
+                  - combobox [ref=e474]
+                  - textbox "50 123 4567 *" [ref=e475]
+                - combobox [ref=e476] [cursor=pointer]:
+                  - generic: Investment Budget
+                  - img [ref=e477]
+                - combobox [ref=e479]
+              - combobox [ref=e480] [cursor=pointer]:
+                - generic: Investment Goal
+                - img [ref=e481]
+              - combobox [ref=e483]
+              - textbox "What are you looking for? (e.g. 2BR in Marina, off-plan, villa...)" [ref=e484]
+              - button "Get Free Investment Advice" [ref=e485] [cursor=pointer]:
+                - text: Get Free Investment Advice
+                - img
+    - generic [ref=e488]:
+      - paragraph [ref=e489]: Ready to invest in Dubai? Talk to a specialist — no cost, no pressure!
+      - generic [ref=e490]:
+        - link "WhatsApp Us" [ref=e491] [cursor=pointer]:
+          - /url: https://wa.me/97145828158?text=Hi%2C%20I'd%20like%20to%20get%20more%20information%20about%20Dubai%20real%20estate.
+          - img [ref=e492]
+          - text: WhatsApp Us
+        - link "+97145828158" [ref=e494] [cursor=pointer]:
+          - /url: tel:+97145828158
+          - img [ref=e495]
+          - text: "+97145828158"
+        - link "info@remaxzam.ae" [ref=e497] [cursor=pointer]:
+          - /url: mailto:info@remaxzam.ae
+          - img [ref=e498]
+          - text: info@remaxzam.ae
+    - contentinfo [ref=e501]:
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - img "REMAX ZAM" [ref=e506]
+            - paragraph [ref=e507]: Data-driven real estate investment consultancy in Dubai. We build wealth through strategic property acquisition.
+            - generic [ref=e508]:
+              - link "Instagram" [ref=e509] [cursor=pointer]:
+                - /url: https://www.instagram.com/remaxzam/
+                - img [ref=e510]
+              - link "Facebook" [ref=e512] [cursor=pointer]:
+                - /url: https://www.facebook.com/remaxzam
+                - img [ref=e513]
+              - link "LinkedIn" [ref=e515] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/remaxzam-ae
+                - img [ref=e516]
+              - link "YouTube" [ref=e518] [cursor=pointer]:
+                - /url: https://www.youtube.com/@REMAXZAM
+                - img [ref=e519]
+              - link "TikTok" [ref=e521] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@remaxzam
+                - img [ref=e522]
+          - generic [ref=e524]:
+            - heading "Quick Links" [level=4] [ref=e525]
+            - generic [ref=e526]:
+              - link "Properties" [ref=e527] [cursor=pointer]:
+                - /url: /properties
+              - link "Off-Plan" [ref=e528] [cursor=pointer]:
+                - /url: /off-plan
+              - link "Golden Visa" [ref=e529] [cursor=pointer]:
+                - /url: /golden-visa
+              - link "Area Guides" [ref=e530] [cursor=pointer]:
+                - /url: /area-guides
+              - link "About Us" [ref=e531] [cursor=pointer]:
+                - /url: /about
+              - link "Our Team" [ref=e532] [cursor=pointer]:
+                - /url: /team
+              - link "Services" [ref=e533] [cursor=pointer]:
+                - /url: /services
+              - link "Insights" [ref=e534] [cursor=pointer]:
+                - /url: /insights
+              - link "Contact" [ref=e535] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e536]:
+            - heading "Invest in Dubai" [level=4] [ref=e537]
+            - generic [ref=e538]:
+              - link "10% Net ROI Property" [ref=e539] [cursor=pointer]:
+                - /url: /10-net-roi-dubai-property
+              - link "Golden Visa Property" [ref=e540] [cursor=pointer]:
+                - /url: /dubai-golden-visa-property
+              - link "Dubai Investment Guide" [ref=e541] [cursor=pointer]:
+                - /url: /dubai-property-investment
+              - link "Passive Income" [ref=e542] [cursor=pointer]:
+                - /url: /my-dubai-passive-income
+              - link "Why Dugasta" [ref=e543] [cursor=pointer]:
+                - /url: /dugasta-faq
+              - link "Portfolio Management" [ref=e544] [cursor=pointer]:
+                - /url: /services
+          - generic [ref=e545]:
+            - heading "Contact" [level=4] [ref=e546]
+            - generic [ref=e547]:
+              - generic [ref=e548]:
+                - img [ref=e549]
+                - text: Bay View Tower, Office 1102, Dubai
+              - generic [ref=e552]:
+                - img [ref=e553]
+                - text: "+97145828158"
+              - generic [ref=e555]:
+                - img [ref=e556]
+                - text: info@remaxzam.ae
+        - generic [ref=e559]: © 2026 REMAX ZAM. All rights reserved. RERA Licensed.
+    - button "Open chat" [ref=e560] [cursor=pointer]:
+      - img [ref=e561]
+  - generic [ref=e564]:
+    - paragraph [ref=e565]:
+      - text: We use cookies to improve your experience and track analytics. By continuing, you agree to our
+      - link "Privacy Policy" [ref=e566] [cursor=pointer]:
+        - /url: /privacy-policy
+      - text: .
+    - generic [ref=e567]:
+      - button "Decline" [ref=e568] [cursor=pointer]
+      - button "Accept All" [ref=e569] [cursor=pointer]

@@ -1,0 +1,74 @@
+{
+  "name": "DeveloperInsight",
+  "type": "object",
+  "properties": {
+    "developer_key": {
+      "type": "string",
+      "title": "Developer Key",
+      "description": "Must match the 'developer' field on a Property exactly (e.g. 'Emaar', 'DAMAC', 'Nakheel')"
+    },
+    "tagline": {
+      "type": "string",
+      "title": "Tagline",
+      "description": "Short credibility line (e.g. 'UAE's #1 Developer by delivery track record')"
+    },
+    "overview": {
+      "type": "string",
+      "title": "Overview",
+      "description": "2-3 sentence description of the developer for investors"
+    },
+    "projects_delivered": {
+      "type": "string",
+      "title": "Projects Delivered",
+      "description": "e.g. '200+'"
+    },
+    "years_active": {
+      "type": "string",
+      "title": "Years Active",
+      "description": "e.g. '25+'"
+    },
+    "rating": {
+      "type": "string",
+      "enum": [
+        "Tier 1 \u2014 Highly Trusted",
+        "Tier 2 \u2014 Established",
+        "Tier 3 \u2014 Emerging"
+      ],
+      "title": "Developer Rating"
+    },
+    "key_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Key Facts",
+      "description": "Trust-building facts about the developer (e.g. 'RERA registered', 'Listed on DFM')"
+    },
+    "logo_url": {
+      "type": "string",
+      "title": "Developer Logo URL"
+    }
+  },
+  "required": [
+    "developer_key",
+    "tagline"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

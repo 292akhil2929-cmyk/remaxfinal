@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+Disallow: /access-denied/
+Disallow: /forgot-password/
+Disallow: /reset-password/
+Disallow: /theme-preview/
+
+Sitemap: https://remaxzam.ae/sitemap.xml

@@ -1,0 +1,156 @@
+{
+  "name": "Property",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "location": {
+      "type": "string",
+      "title": "Location"
+    },
+    "community": {
+      "type": "string",
+      "title": "Community / Building"
+    },
+    "transaction_type": {
+      "type": "string",
+      "enum": [
+        "Residential Sale",
+        "Residential Rental",
+        "Commercial Sale",
+        "Commercial Lease"
+      ],
+      "title": "Transaction Type"
+    },
+    "property_type": {
+      "type": "string",
+      "enum": [
+        "Apartment",
+        "Villa",
+        "Penthouse",
+        "Townhouse",
+        "Land",
+        "Office",
+        "Retail",
+        "Warehouse",
+        "Shop"
+      ],
+      "title": "Property Type"
+    },
+    "listing_status": {
+      "type": "string",
+      "enum": [
+        "Off-Plan",
+        "Ready",
+        "Resale"
+      ],
+      "title": "Listing Status"
+    },
+    "bedrooms": {
+      "type": "number",
+      "title": "Bedrooms"
+    },
+    "bathrooms": {
+      "type": "number",
+      "title": "Bathrooms"
+    },
+    "area_sqft": {
+      "type": "number",
+      "title": "Area (sqft)"
+    },
+    "price_aed": {
+      "type": "number",
+      "title": "Price / Annual Rent (AED)"
+    },
+    "price_label": {
+      "type": "string",
+      "title": "Price Label Override"
+    },
+    "expected_roi": {
+      "type": "number",
+      "title": "Expected ROI (%)"
+    },
+    "rental_yield": {
+      "type": "number",
+      "title": "Rental Yield (%)"
+    },
+    "developer": {
+      "type": "string",
+      "title": "Developer"
+    },
+    "completion_date": {
+      "type": "string",
+      "title": "Completion Date"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "image_url": {
+      "type": "string",
+      "title": "Hero Image URL"
+    },
+    "gallery_images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Gallery Images (up to 10 URLs)"
+    },
+    "featured": {
+      "type": "boolean",
+      "title": "Featured"
+    },
+    "isPocketListing": {
+      "type": "boolean",
+      "title": "Pocket Listing",
+      "default": false
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "Available",
+        "Reserved",
+        "Sold",
+        "Leased"
+      ],
+      "title": "Status",
+      "default": "Available"
+    },
+    "assigned_agent": {
+      "type": "string",
+      "title": "Assigned Agent (Agent ID)"
+    },
+    "youtubeVideoId": {
+      "type": "string",
+      "title": "YouTube Video ID"
+    }
+  },
+  "required": [
+    "title",
+    "location",
+    "property_type",
+    "price_aed",
+    "transaction_type"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

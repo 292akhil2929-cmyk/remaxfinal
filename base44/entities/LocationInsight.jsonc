@@ -1,0 +1,75 @@
+{
+  "name": "LocationInsight",
+  "type": "object",
+  "properties": {
+    "location_key": {
+      "type": "string",
+      "title": "Location Key",
+      "description": "Matches the 'location' field on a Property (e.g. 'Dubai Marina', 'Downtown Dubai')"
+    },
+    "headline": {
+      "type": "string",
+      "title": "Headline",
+      "description": "Short investment headline for this location (e.g. 'Dubai Marina \u2014 High-Yield Waterfront Living')"
+    },
+    "overview": {
+      "type": "string",
+      "title": "Overview",
+      "description": "2-3 sentence overview of the area for investors"
+    },
+    "avg_roi": {
+      "type": "string",
+      "title": "Average ROI",
+      "description": "e.g. '7.2%'"
+    },
+    "avg_price_psf": {
+      "type": "string",
+      "title": "Avg Price per sqft",
+      "description": "e.g. 'AED 1,850'"
+    },
+    "rental_demand": {
+      "type": "string",
+      "enum": [
+        "Very High",
+        "High",
+        "Moderate",
+        "Low"
+      ],
+      "title": "Rental Demand"
+    },
+    "investor_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Investor Facts",
+      "description": "Bullet-point facts to display on the listing (e.g. 'Free zone proximity', 'Metro connected')"
+    },
+    "image_url": {
+      "type": "string",
+      "title": "Area Image URL"
+    }
+  },
+  "required": [
+    "location_key",
+    "headline"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

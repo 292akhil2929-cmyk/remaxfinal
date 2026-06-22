@@ -1,0 +1,9 @@
+- generic [ref=e4]:
+  - paragraph [ref=e5]:
+    - text: We use cookies to improve your experience and track analytics. By continuing, you agree to our
+    - link "Privacy Policy" [ref=e6] [cursor=pointer]:
+      - /url: /privacy-policy
+    - text: .
+  - generic [ref=e7]:
+    - button "Decline" [ref=e8] [cursor=pointer]
+    - button "Accept All" [ref=e9] [cursor=pointer]

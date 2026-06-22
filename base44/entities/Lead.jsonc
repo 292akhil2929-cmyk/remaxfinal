@@ -1,0 +1,106 @@
+{
+  "name": "Lead",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "title": "Full Name"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone"
+    },
+    "country": {
+      "type": "string",
+      "title": "Country"
+    },
+    "investment_budget": {
+      "type": "string",
+      "enum": [
+        "Under 500K AED",
+        "500K - 1M AED",
+        "1M - 3M AED",
+        "3M - 5M AED",
+        "5M+ AED"
+      ],
+      "title": "Investment Budget"
+    },
+    "investment_goal": {
+      "type": "string",
+      "enum": [
+        "Capital Appreciation",
+        "Rental Income",
+        "Golden Visa",
+        "Relocation",
+        "Portfolio Diversification"
+      ],
+      "title": "Investment Goal"
+    },
+    "lead_type": {
+      "type": "string",
+      "enum": [
+        "Investor",
+        "Agent",
+        "Buyer",
+        "Seller"
+      ],
+      "title": "Lead Type"
+    },
+    "source": {
+      "type": "string",
+      "title": "Source"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "New",
+        "Contacted",
+        "Qualified",
+        "Negotiation",
+        "Closed",
+        "Lost"
+      ],
+      "title": "Status",
+      "default": "New"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    },
+    "property_interest": {
+      "type": "string",
+      "title": "Property Interest"
+    }
+  },
+  "required": [
+    "full_name",
+    "email",
+    "lead_type"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

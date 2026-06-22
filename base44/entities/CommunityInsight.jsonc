@@ -1,0 +1,77 @@
+{
+  "name": "CommunityInsight",
+  "type": "object",
+  "properties": {
+    "community_key": {
+      "type": "string",
+      "title": "Community Key",
+      "description": "Must match the 'community' field on a Property exactly (e.g. 'Palm Jumeirah', 'Business Bay')"
+    },
+    "headline": {
+      "type": "string",
+      "title": "Headline",
+      "description": "Short investor-focused headline for the community"
+    },
+    "overview": {
+      "type": "string",
+      "title": "Overview",
+      "description": "2-3 sentences describing the community for investors"
+    },
+    "lifestyle_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Lifestyle Tags",
+      "description": "e.g. 'Beachfront', 'Family-Friendly', 'Metro Access'"
+    },
+    "nearby_landmarks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Nearby Landmarks",
+      "description": "e.g. 'Burj Khalifa \u2014 5 min', 'Dubai Mall \u2014 3 min'"
+    },
+    "capital_growth_outlook": {
+      "type": "string",
+      "enum": [
+        "Strong",
+        "Moderate",
+        "Stable",
+        "Emerging"
+      ],
+      "title": "Capital Growth Outlook"
+    },
+    "community_facts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Community Facts",
+      "description": "Quick stats/facts investors care about"
+    }
+  },
+  "required": [
+    "community_key",
+    "headline"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

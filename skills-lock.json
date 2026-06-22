@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "base44-troubleshooter": {
+      "source": "base44/skills",
+      "sourceType": "github",
+      "skillPath": "skills/base44-troubleshooter/SKILL.md",
+      "computedHash": "707623fa746d385929a81d9a57fa7923e19e3845fc46dbf87b857da15b8c183c"
+    }
+  }
+}

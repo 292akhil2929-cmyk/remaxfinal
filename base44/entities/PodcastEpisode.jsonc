@@ -1,0 +1,48 @@
+{
+  "name": "PodcastEpisode",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "title": "Title"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "youtubeLink": {
+      "type": "string",
+      "title": "YouTube Link"
+    },
+    "youtubeVideoId": {
+      "type": "string",
+      "title": "YouTube Video ID"
+    },
+    "episodeNumber": {
+      "type": "number",
+      "title": "Episode Number"
+    }
+  },
+  "required": [
+    "title",
+    "youtubeLink"
+  ],
+  "rls": {
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "read": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
